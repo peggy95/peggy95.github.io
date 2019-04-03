@@ -1,14 +1,24 @@
 # Wang Pei (Peggy)
 
+Table of contents
+=================
+<!--ts-->
+- [Personal Info](#personal-info)
+- [Projects List](#projects-list)
+  - [Movie Recommendation](#movie-recommendation)
+  - [Robust Journey Planning](#robust-journey-planning)
+<!--te-->
+
 ## Personal Info
 1. GIRL
 2. Master in EE at [EPFL](https://www.epfl.ch/)
 3. Love coding (a little bit)
-4. Interest in Machine Learning, Deep Learning and food.
+4. Interest in Machine Learning, Deep Learning and Food.:smile:
 
 ## Projects List
-Projects are always courses' projects at EPFL. SAD >_<
-### 1. Movie Recommendation
+Projects are always courses' projects at EPFL. SAD :sob:. I am trying to enhance my experience!
+### Movie Recommendation
+
 This is the final project of NTDS course. Our team uses date sets from [kaggle](kaggle.com). As we first wrote our own project for recommendation engine, this project seems a little bit simple. 
 #### - Data
 [MovieLens](https://grouplens.org/datasets/movielens/20m/)
@@ -21,7 +31,7 @@ Benefitting from the course presentation, there is a [PPT](https://github.com/pe
 #### - Improvement
 After learning other advanced methods for recommendation, shallow learning like Collaborative Filtering based on items or users and deep learning like DCN, DeepFMs can be employed for recommendation in terms of these data sets. 
 
-### 2. Robust Journey Planning
+### Robust Journey Planning
 This is the final project of Lab of Data science course. We used the data published by the Open Data Platform Swiss Public Transport (<https://opentransportdata.swiss>). This project is not only plan a journey like google maps but also need to consider the probabilities of failure when journey containing transmits.
 #### - Data
 [SBB dataset](<https://opentransportdata.swiss>)
