@@ -20,3 +20,15 @@ As course required, we need to write jupyter notebook for final presentation. Th
 Benefitting from the course presentation, there is a [PPT](https://github.com/peggy95/movie_recommendation/blob/master/ppt.key) for this project.
 #### - Improvement
 After learning other advanced methods for recommendation, shallow learning like Collaborative Filtering based on items or users and deep learning like DCN, DeepFMs can be employed for recommendation in terms of these data sets. 
+
+### 2. Robust Journey Planning
+This is the final project of Lab of Data science course. We used the data published by the Open Data Platform Swiss Public Transport (<https://opentransportdata.swiss>). This project is not only plan a journey like google maps but also need to consider the probabilities of failure when journey containing transmits.
+#### - Data
+[SBB dataset](<https://opentransportdata.swiss>)
+Unfortunately, the full description from opentransportdata.swiss is only provided in German. The folder contains the actual data [istdaten](<https://opentransportdata.swiss/en/dataset/istdaten>) and the station list data [BFKOORD_GEO](https://opentransportdata.swiss/de/cookbook/hafas-rohdaten-format-hrdf/#Abgrenzung). For more info about [data](https://github.com/peggy95/route_planning/edit/master).
+#### - Codes
+The code in .ipynb can be found [here](https://github.com/peggy95/route_planning/blob/master/final_deliverable.ipynb).
+#### - Presentation
+There is a [PPT](https://github.com/peggy95/route_planning/blob/master/presentation_Dslab.pdf) for this project. We briefly present our main idea and show planned jounery.
+#### - Improvement
+I would like to use google provided api to plan the origin journey instead of implementing by myself. More attention needs be paid to failure probabilities of transits. In this project, we just caculatue the statistics for every station. It would be fine if the number of distinct stations is handleable but when the number is huge it would be better to cluster stations using their historical data. Also, rush hours and non-rush hours need to be considered.
