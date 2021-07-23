@@ -20,4 +20,5 @@ Reformer：依靠LSH（局部敏感hash）n log n的复杂度；
 104: binary partition
 73: block sparsity
 Longformer： localized sliding window + mask + global mask
-但问题是，以上这些方法无法在所有
+但问题是，以上这些方法无法在所有任务上获得SoTA，也无法同时处理编码和解码，并且没有理论上的保证。
+
